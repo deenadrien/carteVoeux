@@ -1,0 +1,17 @@
+#turn:hover{
+    transform: rotate(45deg);
+}
+
+body {
+  background:#004966;
+}
+
+h1{
+	color: #D5BB80;
+	font-family: 'Cedarville Cursive', cursive;
+	font-size: 300%;
+	text-align:center;
+	margin-top:10%;
+	margin-bottom: 10%;
+	font-weight: normal;
+}

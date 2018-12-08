@@ -12,8 +12,14 @@
 		<!-- Scripts Javascript -->
   		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="js/move.min.js"></script>
 		<script src="js/snow.js"></script>
 		<script src="js/popover.js"></script>
+		<script>
+			move('#snow-ball .box')
+  			.translate(300, 80)
+  			.end();
+		</script>
 	</head>
 	<body>
 		<img src="img/snow-ball.png" width="160px" id="snow-ball">

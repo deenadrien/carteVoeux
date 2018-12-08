@@ -1,9 +1,29 @@
-#turn:hover{
+.turn{
+	margin-left: 5%;
+}
+
+#turnleft:hover{
+    transform: rotate(-45deg);
+}
+
+#turnright:hover{
     transform: rotate(45deg);
+}
+
+#snow-ball{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
 }
 
 body {
   background:#004966;
+}
+
+p{
+	font-family: 'Cedarville Cursive', cursive;
+	font-size: 150%;
 }
 
 h1{
@@ -11,7 +31,30 @@ h1{
 	font-family: 'Cedarville Cursive', cursive;
 	font-size: 300%;
 	text-align:center;
-	margin-top:10%;
-	margin-bottom: 10%;
+	margin-top:5%;
+	margin-bottom: 5%;
 	font-weight: normal;
 }
+
+/* Popover */
+  .popover {
+      border: 2px black;
+  }
+  /* Popover Header */
+  .popover-title {
+      background-color: #73AD21; 
+      color: #FFFFFF; 
+      font-size: 28px;
+      text-align:center;
+  }
+  /* Popover Body */
+  .popover-content {
+      background-color: #D2D2D2;
+      color: black;
+      padding: 10px;
+  }
+  /* Popover Arrow */
+  .arrow {
+      border-right-color: red !important;
+  }
+

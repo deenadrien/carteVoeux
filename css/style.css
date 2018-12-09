@@ -77,3 +77,25 @@ h1{
       border-right-color: red !important;
   }
 
+/*Animation traineau*/
+
+.animation {
+/* IE & FireFox */
+animation: demoAnimation 15s;
+/* Chrome, Safari & Opera */
+-webkit-animation: demoAnimation 15s;
+animation-iteration-count: 600;
+position: absolute;
+}
+
+/* IE & FireFox */
+@keyframes demoAnimation {
+from {right: 0%;top: 30%;}
+to {right: 100%;top: 1%;}
+}
+ 
+/* Chrome, Safari & Opera */
+@-webkit-keyframes demoAnimation {
+from {right: 0%;}
+to {right: 100%;}
+}
